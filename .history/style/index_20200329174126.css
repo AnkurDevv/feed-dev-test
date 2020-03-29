@@ -105,21 +105,8 @@
 }
 
 .product-image{
-  width: 60%;
+  width: 50%;
 }
-
-.prod-desc-text{
-  color: gray;
-  font-weight: 500;
-  font-size: 120%;
-  padding-bottom: 3%;
-}
-
-.prod-price-text{
-  color: #5c1b05!important;
-  font-weight: 600;
-}
-
 /* PRODUCT DESCRIPTION CSS - END */
 
 /* MAKING EMAIL RESPONSIVE CSS - START */
