@@ -151,11 +151,5 @@
     display: flex;
     flex-direction: column;
   }
-  .product-image {
-    width: 85%;
-  }
-  .prod-desc-text{
-    font-size: 95%;
-  }
 }
 /* MAKING EMAIL RESPONSIVE CSS - END */
