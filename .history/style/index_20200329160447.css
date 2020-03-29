@@ -68,14 +68,10 @@
 #dividerContainer{
   height: 45px;
 }
- /* #RibbionTable{
-  margin: 0;
-  padding: 0;
-  border: 0;
- } */
+
  #Rectangle1{
   background-color: #ff8559;
-  width: 52.5vw;
+  width: 50vw;
   height: 26px;
 }
 #Rectangle2{

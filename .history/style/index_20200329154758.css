@@ -68,24 +68,19 @@
 #dividerContainer{
   height: 45px;
 }
- /* #RibbionTable{
-  margin: 0;
-  padding: 0;
-  border: 0;
- } */
+
  #Rectangle1{
   background-color: #ff8559;
-  width: 52.5vw;
+  width: 44%;
   height: 26px;
 }
 #Rectangle2{
   background-color: #f7b100;
   height: 100%;
-  width:20vw ;
+  width:10% ;
 }
 #Rectangle3{
   background-color: #fbcd25;
-  width: 30vw;
 }
 
 /* HERO DIVIDER CSS - END */
