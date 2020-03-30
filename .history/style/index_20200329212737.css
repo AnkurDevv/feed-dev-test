@@ -94,7 +94,7 @@
 #productDescHeadliner{
   color: #5c1b05!important;
   font-family: sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 235%;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .logo-container{
-  padding-bottom: 7%;
+  padding-bottom: 8%;
 }
 
 /* SOCIAL MEDIA LOGOS SECTION CSS - END */
@@ -180,7 +180,7 @@
   }
 
   #heroMainHeading {
-    font-size: 266%;
+    font-size: 213%;
   }
   #heroSubHeading {
     font-size: 118%;
