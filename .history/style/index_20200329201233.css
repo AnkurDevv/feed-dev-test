@@ -132,17 +132,9 @@
 
 /* PRODUCT DESCRIPTION CSS - END */
 
-/* SOCIAL MEDIA LOGOS SECTION CSS - START */
-
 .social-media-logo{
-  max-width: 20%;
+  max-width: 14%;
 }
-
-.logo-container{
-  
-}
-
-/* SOCIAL MEDIA LOGOS SECTION CSS - END */
 
 /* MAKING EMAIL RESPONSIVE CSS - START */
 @media screen and (max-width: 960px) {

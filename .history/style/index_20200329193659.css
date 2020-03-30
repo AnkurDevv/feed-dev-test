@@ -125,24 +125,12 @@
   font-family: sans-serif;
   font-size: 111%;
   padding: 2%;
+  margin-bottom: 10%;
   border: 0;
-  padding-bottom: 6%;
   background: none; /* gives button a flat look*/
 }
 
 /* PRODUCT DESCRIPTION CSS - END */
-
-/* SOCIAL MEDIA LOGOS SECTION CSS - START */
-
-.social-media-logo{
-  max-width: 20%;
-}
-
-.logo-container{
-  
-}
-
-/* SOCIAL MEDIA LOGOS SECTION CSS - END */
 
 /* MAKING EMAIL RESPONSIVE CSS - START */
 @media screen and (max-width: 960px) {
