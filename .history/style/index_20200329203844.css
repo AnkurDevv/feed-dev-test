@@ -138,20 +138,15 @@
   max-width: 20%;
 }
 
-.logo-container{
-  padding-bottom: 8%;
-}
+/* .logo-container{
+  
+} */
 
 /* SOCIAL MEDIA LOGOS SECTION CSS - END */
 
 /* FOOTER CSS - START */
 .footer-text{
   margin: 1%;
-  font-family: sans-serif;
-}
-
-.footer-links{
-  color: blue;
 }
 /* FOOTER CSS - END */
 
@@ -193,15 +188,6 @@
   }
   .prod-desc-text{
     font-size: 95%;
-  }
-  #shopNowCTA{
-    padding-bottom: 8%;
-  }
-  .social-media-logo{
-    max-width: 40%;
-  }  
-  .footer-text{
-    margin-bottom: 3%;
   }
 }
 /* MAKING EMAIL RESPONSIVE CSS - END */

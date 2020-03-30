@@ -135,7 +135,7 @@
 /* SOCIAL MEDIA LOGOS SECTION CSS - START */
 
 .social-media-logo{
-  max-width: 20%;
+  max-width: 40%;
 }
 
 .logo-container{
@@ -194,12 +194,6 @@
   .prod-desc-text{
     font-size: 95%;
   }
-  #shopNowCTA{
-    padding-bottom: 8%;
-  }
-  .social-media-logo{
-    max-width: 40%;
-  }  
   .footer-text{
     margin-bottom: 3%;
   }

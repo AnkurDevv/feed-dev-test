@@ -139,7 +139,7 @@
 }
 
 .logo-container{
-  padding-bottom: 8%;
+  padding-bottom: 4%;
 }
 
 /* SOCIAL MEDIA LOGOS SECTION CSS - END */
@@ -194,12 +194,6 @@
   .prod-desc-text{
     font-size: 95%;
   }
-  #shopNowCTA{
-    padding-bottom: 8%;
-  }
-  .social-media-logo{
-    max-width: 40%;
-  }  
   .footer-text{
     margin-bottom: 3%;
   }
