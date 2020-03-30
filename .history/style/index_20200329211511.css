@@ -178,10 +178,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  #heroMainHeading {
-    font-size: 213%;
-  }
   #HeroImageContainer{
     width: 100%;
     height: 385px;

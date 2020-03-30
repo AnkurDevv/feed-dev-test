@@ -135,8 +135,7 @@
 /* SOCIAL MEDIA LOGOS SECTION CSS - START */
 
 .social-media-logo{
-  max-width: 7%;
-  margin: 1%;
+  max-width: 20%;
 }
 
 .logo-container{
@@ -165,22 +164,16 @@
   /* #HeroMobileBgContainer{
     display: table-cell;
   } */
-
-  /* #bodyTable {
+  #bodyTable {
     margin-left: 0; 
     margin-right:0;
-  } */
-
+  }
   #dividerContainerDesktop{
     display: none;
   }
   #HeroBodyWrapper{
     display: flex;
     flex-direction: column;
-  }
-
-  #heroMainHeading {
-    font-size: 213%;
   }
   #HeroImageContainer{
     width: 100%;
@@ -204,6 +197,9 @@
   #shopNowCTA{
     padding-bottom: 8%;
   }
+  .social-media-logo{
+    max-width: 40%;
+  }  
   .footer-text{
     margin-bottom: 3%;
   }

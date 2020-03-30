@@ -136,7 +136,6 @@
 
 .social-media-logo{
   max-width: 7%;
-  margin: 1%;
 }
 
 .logo-container{
@@ -177,10 +176,6 @@
   #HeroBodyWrapper{
     display: flex;
     flex-direction: column;
-  }
-
-  #heroMainHeading {
-    font-size: 213%;
   }
   #HeroImageContainer{
     width: 100%;

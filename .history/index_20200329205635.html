@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <table border="0" cellpadding="0" cellspacing="0" height="100%" width="80%" id="bodyTable">
+  <table border="1" cellpadding="0" cellspacing="0" height="100%" width="80%" id="bodyTable">
 
     <!-- HEADER ROW - START  -->
     <tr>
@@ -226,14 +226,21 @@
       <td>
         <table>
           <tr>
-            <td class="logo-container">
+            <table>
+              tr
               <!-- facebook logo -->
-              <img src="img/facebook-logo-square.png" alt="facebook-logo" class="social-media-logo">
+              <td class="logo-container">
+                <img src="img/facebook-logo-square.png" alt="facebook-logo" class="social-media-logo">
+              </td>
               <!-- twitter logo -->
-              <img src="img/twitter.png" alt="twitter-logo" class="social-media-logo">
+              <td class="logo-container">
+                <img src="img/twitter.png" alt="twitter-logo" class="social-media-logo">
+              </td>
               <!-- pinterest logo -->
-              <img src="img/pinterest.png" alt="pinterest-logo" class="social-media-logo">
-            </td>
+              <td class="logo-container">
+                <img src="img/pinterest.png" alt="pinterest-logo" class="social-media-logo">
+              </td>
+            </table>
           </tr>
         </table>
       </td>
@@ -298,234 +305,6 @@
 
   </table>
 
-  <style>
-    /* HEADER CSS - START */
-
-    #bodyTable {
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-
-    #ebay-logo {
-      width: 28%;
-    }
-
-    /* HEADER CSS - END */
-
-    /* HERO BODY CSS - START */
-    #heroContentWrapper {
-      background-color: #f7e376;
-    }
-
-    #heroMainHeading {
-      color: #5c1b05 !important;
-      font-size: 404%;
-      font-family: sans-serif;
-      padding-bottom: 6%;
-    }
-
-    #heroSubHeading {
-      color: #5c1b05 !important;
-      font-family: sans-serif;
-      font-size: 146%;
-      padding-bottom: 3%;
-    }
-
-    #HeroImageContainer {
-      padding: 0;
-      width: 49%;
-      background-image: url('/img/HeroDesktopBg.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-    }
-
-    #HeroDesktopBg {
-      width: 100%;
-      height: 100%;
-      display: block;
-      /*otherwise it wont occupy the whole container*/
-    }
-
-    #HeroMobileBgContainer {
-      display: none;
-    }
-
-    #heroMobileBackGround {
-      background-image: url('/img/HeroDesktopBg.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-    }
-
-    #heroCTA {
-      border: 4px solid #5c1b05;
-      color: #5c1b05;
-      background: #f7e376;
-      font-family: sans-serif;
-      font-size: 175%;
-      padding: 1%;
-      margin-bottom: 10%;
-    }
-
-    /* HERO BODY CSS - END */
-
-    /* HERO DIVIDER CSS - START */
-    #dividerContainer {
-      height: 45px;
-    }
-
-    /* #RibbionTable{
-    margin: 0;
-    padding: 0;
-    border: 0;
-  } */
-    #Rectangle1 {
-      background-color: #ff8559;
-      width: 52.5vw;
-      height: 26px;
-    }
-
-    #Rectangle2 {
-      background-color: #f7b100;
-      height: 100%;
-      width: 20vw;
-    }
-
-    #Rectangle3 {
-      background-color: #fbcd25;
-      width: 30vw;
-    }
-
-    /* HERO DIVIDER CSS - END */
-
-    /* PRODUCT DESCRIPTION CSS - START */
-    #productDescHeadliner {
-      color: #5c1b05 !important;
-      font-family: sans-serif;
-      font-weight: 500;
-      font-size: 235%;
-    }
-
-    #productDescSubText {
-      color: gray;
-      font-weight: 500;
-      font-size: 152%;
-    }
-
-    .product-image {
-      width: 60%;
-    }
-
-    .prod-desc-text {
-      color: gray;
-      font-weight: 500;
-      font-size: 120%;
-      padding-bottom: 3%;
-    }
-
-    .prod-price-text {
-      color: #5c1b05 !important;
-      font-weight: 600;
-    }
-
-    #shopNowCTA {
-      color: #5c1b05;
-      font-family: sans-serif;
-      font-size: 111%;
-      padding: 2%;
-      border: 0;
-      padding-bottom: 6%;
-      background: none;
-      /* gives button a flat look*/
-    }
-
-    /* PRODUCT DESCRIPTION CSS - END */
-
-    /* SOCIAL MEDIA LOGOS SECTION CSS - START */
-
-    .social-media-logo {
-      max-width: 7%;
-      margin: 1%;
-    }
-
-    .logo-container {
-      padding-bottom: 8%;
-    }
-
-    /* SOCIAL MEDIA LOGOS SECTION CSS - END */
-
-    /* FOOTER CSS - START */
-    .footer-text {
-      margin: 1%;
-      font-family: sans-serif;
-    }
-
-    .footer-links {
-      color: blue;
-    }
-
-    /* FOOTER CSS - END */
-
-    /* MAKING EMAIL RESPONSIVE CSS - START */
-    @media screen and (max-width: 480px) {
-      /* #HeroImageContainer{
-      display: none;
-    } */
-      /* shifting the image for smaller screens here */
-      /* #HeroMobileBgContainer{
-      display: table-cell;
-    } */
-
-      /* #bodyTable {
-      margin-left: 0; 
-      margin-right:0;
-    } */
-
-      #dividerContainerDesktop {
-        display: none;
-      }
-
-      #HeroBodyWrapper {
-        display: flex;
-        flex-direction: column;
-      }
-
-      #heroMainHeading {
-        font-size: 213%;
-      }
-
-      #HeroImageContainer {
-        width: 100%;
-        height: 385px;
-      }
-
-      #productDescSubText {
-        font-size: 125%;
-      }
-
-      #ProductDescDetails {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .product-image {
-        width: 85%;
-      }
-
-      .prod-desc-text {
-        font-size: 95%;
-      }
-
-      #shopNowCTA {
-        padding-bottom: 8%;
-      }
-
-      .footer-text {
-        margin-bottom: 3%;
-      }
-    }
-
-    /* MAKING EMAIL RESPONSIVE CSS - END */
-  </style>
   <script src="" async defer></script>
 </body>
 
